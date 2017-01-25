@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.0",
+    "signature": "449ac0641ee0306b23cc29045a4859bbed9a542f"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.0": {
+      "RedisChat/1.0.0": {
+        "dependencies": {
+          "StackExchange.Redis": "1.2.0"
+        },
+        "runtime": {
+          "RedisChat.dll": {}
+        }
+      },
+      "StackExchange.Redis/1.2.0": {
+        "dependencies": {
+          "System.Collections.NonGeneric": "4.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.5/StackExchange.Redis.dll": {}
+        }
+      },
+      "System.Collections.NonGeneric/4.0.1": {
+        "runtime": {
+          "lib/netstandard1.3/System.Collections.NonGeneric.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RedisChat/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StackExchange.Redis/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RXi3cs12LsEVZoPW2RnHEkiKoRw8aCivJUi4JFbW6ym6OaANkoJq/BRrorb3XBHsCMfoyOm3PGMuAGibll6FbA=="
+    },
+    "System.Collections.NonGeneric/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hMxFT2RhhlffyCdKLDXjx8WEC5JfCvNozAZxCablAuFRH74SCV4AgzE8yJCh/73bFnEoZgJ9MJmkjQ0dJmnKqA=="
+    }
+  }
+}
